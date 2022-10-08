@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Unicorn;
+  src: url('../fonts/unicorn.woff');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #ebc014;
+  background-image: url('../images/seventies.jpeg');
+  background-repeat: repeat;
+}
+
+.box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 150px;
+  background-color: #ebc014;
+  color: #633400;
+  font-family: Unicorn;
+  font-size: 64px;
+  letter-spacing: -3px;
+  border: 12px solid #fad3c4;
+  border-radius: 30px;
+  box-shadow: 0 0 0 24px #4e050f;
+  transform: translate(-50%, -50%);
+}
+
+.box:before {
+  content: ' ';
+  position: absolute;
+  top: -24px;
+  right: -24px;
+  bottom: -24px;
+  left: -24px;
+  border: 12px solid #f94a02;
+  border-radius: 42px;
+}
+
+.box:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 12px solid #76c7d6;
+  border-radius: 18px;
+}

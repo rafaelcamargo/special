@@ -1,14 +1,17 @@
 {
-  "name": "special",
+  "name": "@special/css-specificity",
   "version": "0.1.0",
-  "description": "Specially short tips about programming",
+  "description": "Experiments with CSS specificity",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rafaelcamargo/special.git"
+    "url": "git+https://github.com/rafaelcamargo/special.git"
   },
   "keywords": [
-    "tips",
-    "programming"
+    "css",
+    "specificity"
   ],
   "author": "Rafael Camargo <hello@rafaelcamargo.com>",
   "license": "MIT",
@@ -16,7 +19,7 @@
     "url": "https://github.com/rafaelcamargo/special/issues"
   },
   "homepage": "https://github.com/rafaelcamargo/special#readme",
-  "workspaces": [
-    "packages/css-specificity"
-  ]
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }

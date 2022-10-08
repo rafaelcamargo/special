@@ -1,0 +1,19 @@
+{
+  "name": "special",
+  "version": "0.1.0",
+  "description": "Specially short tips about programming",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rafaelcamargo/special.git"
+  },
+  "keywords": [
+    "tips",
+    "programming"
+  ],
+  "author": "Rafael Camargo <hello@rafaelcamargo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelcamargo/special/issues"
+  },
+  "homepage": "https://github.com/rafaelcamargo/special#readme"
+}
